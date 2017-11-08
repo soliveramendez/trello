@@ -1,0 +1,78 @@
+*{
+margin: 0 auto;
+}
+body{
+    background-color: #0079BF;
+    font-family: 'Lato', sans-serif;
+  }
+
+
+.container{
+width: 100%;
+background-image: url(https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/images/trello-header-logos/af7af6ed478d3460709d715d9b3f74a4/trello-logo-white.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 90px;
+position: fixed;
+background-color: #0067A3;
+height: 4em;
+text-align: center;
+color: white;
+font-size: 15px;
+font-weight: 600;
+
+}
+
+.nombre{
+    margin-top: 0.6em;
+    background-color: #569BC4;
+    padding: 0.3em 1em;
+    border-radius: 5px;
+}
+
+.buscador{
+
+    background-color: #569BC4;
+    opacity: 0.8;
+    border: none;
+    height: 40%;
+    margin-left: -400px;
+    width: 20%;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.fa{
+    height: 50%;
+    padding: 0.5em 0.5em;
+    border-radius: 5px;
+    color:white;
+   font-size: 20px;
+   line-height: 33px;
+   position: relative;
+   z-index: auto;
+
+
+}
+
+.tableros{
+    position: absolute;
+    background-color: #569BC4;
+    width: 15%;
+    height: 40%;
+    margin-left:10px;
+    margin-top: 15px;
+}
+
+
+.titulo{
+font-size: 10px;
+margin-top: 20px;
+text-align: left;
+}
+
+
+
+#nuevoForm{
+  display: none;
+}
