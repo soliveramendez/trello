@@ -1,3 +1,4 @@
+
 *{
 margin: 0 auto;
 }
@@ -34,26 +35,12 @@ font-weight: 600;
 
     background-color: #569BC4;
     opacity: 0.8;
-    border: none;
-    height: 40%;
-    margin-left: -400px;
-    width: 20%;
-    margin-top: 15px;
-    padding: 5px;
-}
-
-.fa{
-    height: 50%;
-    padding: 0.5em 0.5em;
-    border-radius: 5px;
-    color:white;
-   font-size: 20px;
-   line-height: 33px;
-   position: relative;
-   z-index: auto;
-
+    margin-left:-500px;
+    margin-top: 16px;
+    height: 15px;
 
 }
+
 
 .tableros{
     position: absolute;
@@ -64,6 +51,18 @@ font-weight: 600;
     margin-top: 15px;
 }
 
+.fa-trello{
+  float:left;
+  margin-left: 40px;
+  margin-top: 4px;
+}
+.fa-search{
+display: inline-block;
+position: absolute;
+margin-top: 20px;
+margin-left: -160px;
+}
+
 
 .titulo{
 font-size: 10px;
@@ -72,7 +71,41 @@ text-align: left;
 }
 
 
+#container{
+position: absolute;
+margin-top: 50px;
+}
+#contiene{
+position: absolute;
+margin-top:200px;
+}
+#btn{
+background-color: #0067A3;
+border:none;
+margin-left: 30px;
+width: 150px;
+height: 30px;
+border-radius: 5px;
+}
 
-#nuevoForm{
-  display: none;
+#btn::after{
+content:"";
+display: none;
+overflow: hidden;
+
+}
+
+input{
+ background:rgba(222, 214, 214, 0.93);
+ margin-top: 60px;
+ height: 60px;
+ margin-left: 10px;
+
+}
+button{
+background-color:#8BC34A;
+color:white;
+position: absolute;
+margin-top: 100px;
+margin-left: 20px;
 }
